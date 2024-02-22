@@ -1,0 +1,44 @@
+#FirstMenu {
+    padding-left: 7%;
+    padding-top: 2%;
+    color: white;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+#cookie{
+    padding-top: 5%;
+    width: 22%;
+    filter: drop-shadow(20px 20px 20px #fcfcfc);
+}
+
+#cookie:hover{
+    transform: scale(90%);
+}
+
+.column {
+    float: left;
+    width: 33.33%;
+}
+  
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+#quantia {
+    padding-left: 6%;
+}
+
+#nome {
+    padding-left: 3%;
+}
+
+@media only screen and (min-width: 1200px) {
+    body{
+      background-image: url(../img/fundo.jpg);
+      background-position: center;
+      background-attachment: fixed;
+      background-size: 157%;}
+    }
+  
